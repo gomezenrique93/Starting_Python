@@ -1,9 +1,9 @@
-#Get the first score
-#Get the second score
-#Get the third test score
-#Calculate the average
-#Display the average
-#If average is greater than 95:
+# Get the first score
+# Get the second score
+# Get the third test score
+# Calculate the average
+# Display the average
+# If average is greater than 95:
 #   Congratulate user
 
 first_score = float(input('Enter your first score: '))
