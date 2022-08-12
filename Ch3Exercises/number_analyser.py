@@ -15,8 +15,8 @@ if user_number > 0:
     print("Positive")
 if user_number == 0:
     print("Zero")
-if user_number % 2 == 0:
-    print("Is Even")
-if user_number % 3 == 0:
-    print("Is Odd")
+elif user_number % 2 == 0:
+    print("Even")
+elif user_number % 3 == 0:
+    print("Odd")
 
