@@ -7,11 +7,11 @@
 #USER INPUT
 
 #take in principal amount deposited
-P = float(input("Enter your principal amount: "))
+P = float(input("Enter your principal amount $: "))
 #take in the annual interest rate
 r = float(input("Enter your annual interest rate: "))
 #take in the amount of times interest will be compounded per year
-n = int(input("How many times will interest rate be compounded?: "))
+n = int(input("How many times will interest rate be compounded per year?: "))
 #take in the number of years the account will be left to accrue interest
 t = int(input("How many years do you want to leave your money " + 
         " in your savings account?: "))
