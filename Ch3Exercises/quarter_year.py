@@ -7,13 +7,15 @@
 #Capture user input
 user_input = int(input("Enter a number from 1 to 12: "))
 
-if user_input > 1 and user_input <=3:
-    print("This is quarter one!")
-elif user_input > 3 and user_input <= 6:
-    print("This is quarter two!")
-elif user_input > 6 and user_input <= 9:
-    print("This is quarter three!")
-elif user_input > 9 and user_input <= 12:
-    print("This is quarter four!")
-elif user_input < 1 or user_input > 12:
+if user_input < 1 or user_input > 12:
     print("ERROR your number should be between 1 and 12!!")
+else:
+    if user_input > 1 and user_input <=3:
+        print("This is quarter one!")
+    elif user_input > 3 and user_input <= 6:
+        print("This is quarter two!")
+    elif user_input > 6 and user_input <= 9:
+        print("This is quarter three!")
+    elif user_input > 9 and user_input <= 12:
+        print("This is quarter four!")
+
