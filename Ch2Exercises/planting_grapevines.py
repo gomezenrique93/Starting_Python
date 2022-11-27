@@ -7,10 +7,10 @@
 
 #Prompt the user to enter the length of the row "V"
 R = int(input("Enter the length of the row in feet: "))
-E = int(input("Enter the amount of space between the end post assembly: "))
-S = int(input("Enter the amount of space between the vines: "))
+E = int(input("Enter the amount of space between the end post assembly in feet: "))
+S = int(input("Enter the amount of space between the vines in feet: "))
 
 V = (R-(2*E))/S
 
-print("Total number of grapevines ", V)
+print("Total number of grapevines that will fit in the row", V)
 
