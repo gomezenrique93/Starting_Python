@@ -9,9 +9,10 @@ lot = int(input('Lot number: '))
 
 # Continue processing as long as the user
 # does not enter lot number 0. 
+#Remember while loop is a pretest loop
 while lot != 0:
     # Get the poroperty value. 
-    value = float(input('tner the proptery value: '))
+    value = float(input('Enter the proptery value: '))
 
     #Calculate the property's tax.
     tax = value * TAX_FACTOR
