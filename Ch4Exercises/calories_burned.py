@@ -8,5 +8,4 @@ START_TIME = 10
 # Ending interval time.
 END_TIME = 30
 
-for minutes in range(START_TIME, END_TIME):
     
