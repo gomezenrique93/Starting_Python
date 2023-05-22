@@ -7,6 +7,9 @@ def main():
     miles_converter(kilometers)
 
 def miles_converter(kil):
+    # Converts kilometers to miles
     miles = kil * 0.6214
-    print(miles)
+
+    # Prints miles
+    print("In miles this is ", format(miles, ".2f"))
 main()
