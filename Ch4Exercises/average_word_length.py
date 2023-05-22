@@ -37,5 +37,6 @@ while truthy == True:
     # Calculates the average
     average = total // total_inputs
 
-print(average)
+# Prints average word length
+print("Average word length is",average)
    
