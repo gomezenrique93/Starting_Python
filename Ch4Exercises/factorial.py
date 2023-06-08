@@ -1,8 +1,8 @@
-user_number = int(input("Enter a non-negative number: "))
+user_number = int(input("Enter a number: "))
 
-factorial = 0
+factorial = 1
 
-for i in range(user_number + 1):
-    factorial = i * (user_number - 1)
+for i in range(1, user_number + 1):
+    factorial = factorial * i
 
 print(factorial)
