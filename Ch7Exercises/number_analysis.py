@@ -13,10 +13,14 @@ def main():
     maximum_value = find_highest(values)
     print("Maximum value is: ", maximum_value)
 
+    # calculated_total holds the
+    # total from numbers in list values
     calculated_total = calculate_total(values)
 
+    # calculated_aversage holds the 
+    # average from the numbers in the list
     calculated_average = calculate_average(calculated_total, len(values))
-    print(calculated_average)
+    print("Average value is: ", calculated_average)
 
 def collect_values():
     # Empty list
