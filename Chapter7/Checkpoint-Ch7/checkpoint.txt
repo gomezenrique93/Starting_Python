@@ -1,0 +1,24 @@
+7.19:
+
+numbers = [[1, 2], 
+            [10, 20], 
+            [100, 200], 
+            [1000, 2000]]
+
+In this case there 4 rows and 2 columns
+
+7.20:
+
+values = [[0,0,0,0],
+            [0,0,0,0],
+                [0,0,0,0]]
+
+7.21:
+
+ROWS = 4
+COLS = 2
+
+    for r in range(ROWS):
+        for c in range(COLS):
+            print(numbers[r][c])
+
